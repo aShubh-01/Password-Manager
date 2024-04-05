@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 
-'''
-If 'key.key' file is not presend in your folder,run this method once and comment it out again                 
+#If 'key.key' file is not presend in your folder,run this method once and comment it out again   
+'''              
 def createKey() :                        
     key = Fernet.generate_key()
     with open('key.key', 'wb') as kf :
