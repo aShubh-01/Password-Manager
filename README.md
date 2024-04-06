@@ -8,4 +8,4 @@ Steps to run the program -
 2. Then Navigate to line 37, change the variable '__masterPwd__' to whatever you prefer, by default its value is set to 'asd', it is basically a master password. The Program will ask for this password to view user 
    data.
  
-3. Then navigate to '_GUI.py_' and run the program.
+3. Then run '_GUI.py_'.
